@@ -1,0 +1,1 @@
+sed -i 's/const \[recordResultsScreen/const \[recordFps, setRecordFps\] = useState<number>(() => { const saved = localStorage.getItem("rhythm_engine_recordFps"); return saved !== null ? parseInt(saved) : 30; });\n  const \[recordResultsScreen/g' src/components/RhythmGameEngine.tsx

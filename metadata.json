@@ -1,0 +1,6 @@
+{
+  "name": "IRIS",
+  "description": "Rhythm suite, automatic chart generation, format converter and Test Zone.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
